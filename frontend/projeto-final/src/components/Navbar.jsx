@@ -1,15 +1,19 @@
-
+import {Link} from 'react-router-dom'
 
 function Navbar () {
     return (
     <>
-        <ul>
-            <li>Pagina Inicial</li>
-            <li>Feed</li>
-            <li>Perfil</li>
-            <li>Configurações</li>
-        </ul>
-        <button>get started</button>
+    <section id='navbarHeader'>
+        
+        <div id="navbar">
+            <Link to='/' className="navbarItems">Pagina Inicial</Link>
+            <Link to='/feed' className="navbarItems">Feed</Link>
+            <Link to='/perfil' className="navbarItems">Perfil</Link>
+            <Link to='/configuracoes' className="navbarItems">Configurações</Link>
+        </div>
+        
+    </section>   
+        
     </>)
 }
 

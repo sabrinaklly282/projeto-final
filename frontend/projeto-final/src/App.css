@@ -1,5 +1,21 @@
-#feed{
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #e6e8ea;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+}
+
+.navbarItems{
+  color: inherit;
+  text-decoration: inherit;
+  background-color: #ECEEF3;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} .navbarItems:hover{
+  background-color: white;
 }
