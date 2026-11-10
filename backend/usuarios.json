@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "username": "ana",
+    "seguidores": 1000,
+    "seguindo": 100
+  },
+  {
+    "id": 2,
+    "username": "Davi",
+    "seguidores": 200,
+    "seguindo": 50
+  },
+  {
+    "id": 3,
+    "username": "luiza",
+    "seguidores": 100,
+    "seguindo": 70
+  },
+  {
+    "id": 4,
+    "username": "pedro",
+    "seguidores": "400",
+    "seguindo": 100
+  }
+]
